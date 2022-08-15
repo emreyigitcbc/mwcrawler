@@ -1,0 +1,19 @@
+{
+  "name": "mwcrawler",
+  "version": "1.0.0",
+  "description": "A web scrapper for non-api and api provided websites.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Emre Cebeci",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "colors": "1.4.0",
+    "gif-frames": "^1.0.1",
+    "pdfkit": "^0.13.0",
+    "puppeteer": "^16.1.0",
+    "readline-sync": "^1.4.10"
+  }
+}
