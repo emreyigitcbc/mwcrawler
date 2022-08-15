@@ -59,15 +59,15 @@ ___
 - You should push every page to `global.results.pages` variable.
 - The structre of page object must be like that:
 ```json
-{ title: "Title of Page", text: "Text of Page" }
+{ "title": "Title of Page (optional)", "text": "Text of Page" }
 ```
 - You must push your pages in order! 
 - Example:
 ```json
 {
 	"pages": [
-		{ title: "Page 1", text: "Lorem ipsum..." }
-		{ title: "Page 2", text: "lorem ipusm..." }
+		{ "title": "Page 1", "text": "Lorem ipsum..." }
+		{ "title": "Page 2", "text": "lorem ipusm..." }
 	]
 }
  ```
