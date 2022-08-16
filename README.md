@@ -87,5 +87,7 @@ ___
 
 ### Built-in Functions (functions.js)
 **async download(url, name):** Downloads the file from `url` and saves it in `downloads` as `name`
+
 **async gifToPng(url):** Downloads the GIF from `url` and converts it to PNG then saves it in `downloads` as `thumbnail.png`
+
 **async sleep(milliseconds):** Halts the program for `milliseconds` ms
