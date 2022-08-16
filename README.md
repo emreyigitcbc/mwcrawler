@@ -24,6 +24,12 @@ Open a terminal on MWCrawler's directory and execute these commands below.
 npm i
 npm start
 ```
+
+#### Currently Supported Crawlers
+- EpikManga (EpikNovel)
+- MangaGecesi
+- WebtoonHatti
+
 ##### Installing Another Crawler
 Move your crawler into `websites` folder and the crawler will be listed in MWCrawler!
 
