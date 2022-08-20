@@ -28,7 +28,7 @@ module.exports = {
                 chapter_data = await axios.get(`https://mangagecesi.com/v1/comics/${comic_name}/chapters/bolum-${i}`)
                 console.log(i + ". bölüm indiriliyor (" + chapter_data.data.chapter.pages.length + " sayfa)")
                 for (var [index, url] of chapter_data.data.chapter.pages.entries()) {
-                    await download(url, total + ".gif")
+                    await download(url, total + ".jpg")
                     console.log(i + ". bölüm sayfa " + (index+1) + " indirildi.")
                     global.results.pages.push(total + ".jpg")
                     total += 1
